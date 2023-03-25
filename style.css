@@ -1,0 +1,58 @@
+body{
+    padding-top:200px;
+    padding-bottom:200px;
+                font-family: 'Lato', sans-serif;
+        background-color:white;
+        box-sizing: border-box;
+   }
+   
+.example1{
+    border: 1px solid black;
+    display:flex;
+}
+.row{
+    display:inline-flex;
+    position: relative;
+    margin:20px;
+    width:600px;
+    left:5%;
+    right:25%;
+    border-radius:10px;
+    flex-wrap:wrap;
+    background-color:whitesmoke;
+}
+.box{
+    width:60%;
+}
+.image{
+width:40%;
+}
+.title {
+    font-size:xx-large;
+    margin-top: 10px;
+    margin-bottom:20px;
+    margin-left:10px;
+}
+.description{
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom:20px;
+    margin-left:10px;
+}
+.arrow{
+    font-size: x-large;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+       }
+#xyz{
+    background: url( Shield.png );
+    background-size: 100% 110% ;
+}
+#abc{
+    background: url( Suitcase.jpeg );
+    background-size: 100% 110%;
+}
+
+
+    
